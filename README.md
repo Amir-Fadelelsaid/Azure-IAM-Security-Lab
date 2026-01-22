@@ -89,3 +89,5 @@ It validates strong authentication enforcement as part of an identity-first, Zer
 
 This screenshot shows a successful Azure portal login using a cloud user account after multi-factor authentication was enforced. It confirms identity verification was completed prior to authorization decisions, validating the authentication portion of the IAM process.
 
+![RBAC Access Denied](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/1f9448b30cb2cd33987c5c325f911e593a49221f/IAM%20Logs%20dont%20have%20permission.png)
+This screenshot demonstrates Azure Role-Based Access Control (RBAC) enforcement. Although the cloud user was authenticated via MFA, they were denied access to the storage logs container due to insufficient permissions. This confirms that authentication (identity) does not imply authorization (access), enforcing least privilege.
