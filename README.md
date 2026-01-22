@@ -75,4 +75,11 @@ confirming correct enforcement of least privilege.
 Only after validation were monitoring services onboarded,
 ensuring identity and authorization were established first.
 
+### IAM Authentication – MFA Enforcement
+
+![IAM authenticate](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/2a30d1406ce2b625f53bb8aa33c97ba26f3c6f35/IAM%20authenticate.png)
+
+Azure enforced multi-factor authentication during first-time sign-in, requiring Microsoft Authenticator enrollment before access was granted.
+
+
 
