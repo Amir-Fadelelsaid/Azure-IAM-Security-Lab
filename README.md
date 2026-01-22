@@ -85,5 +85,7 @@ Azure enforced multi-factor authentication during first-time sign-in, requiring 
 This screenshot confirms successful multi-factor authentication (MFA) enrollment for a cloud user using Microsoft Authenticator.  
 It validates strong authentication enforcement as part of an identity-first, Zero Trust security model in Azure.
 
+![Cloud User Login After MFA](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/30d5ac862081b8c0aabf78b8bd9f4c711ba508a3/IAM%20logged%20in%20Azure%20with%20Cloud%20user.png?raw=true)
 
+This screenshot shows a successful Azure portal login using a cloud user account after multi-factor authentication was enforced. It confirms identity verification was completed prior to authorization decisions, validating the authentication portion of the IAM process.
 
