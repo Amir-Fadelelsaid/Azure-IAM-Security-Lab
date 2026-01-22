@@ -104,4 +104,14 @@ This screenshot shows the `rg-security-lab` resource group, illustrating how Azu
 ![Subscription Overview](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/b9d0642f921117247ab11a6394a8e1d8d6a06709/IAM%20Azure%20Subscription%20Overview.png)
 This screenshot shows the Azure Subscription overview for the signed-in user. It confirms the subscription name, ID, and that the user is authenticated in the Default Directory with appropriate role context, providing baseline visibility into the environment before applying RBAC and resource-level controls.
 
+![Containers View](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/098eb89c302b958ac3bdd3999e56e8cc8cacc7c0/Iam%20containers.png)
+Displays the storage account container list accessible to the cloud user, demonstrating scoped visibility before attempting restricted actions like log access.
+
+![Log Analytics in Resource Group](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/098eb89c302b958ac3bdd3999e56e8cc8cacc7c0/IAM%20Log%20Analytics%20IAM%20Security%20LAB.png)
+Shows the Log Analytics workspace deployed within the `rg-security-lab` resource group, establishing a monitoring foundation under the scoped IAM model.
+
+![Sentinel Workspace Connected](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/098eb89c302b958ac3bdd3999e56e8cc8cacc7c0/IAM%20Microsoft%20Defender%20Worspace%20connected.png)
+Shows the Microsoft Sentinel workspace connected to Microsoft Defender for Cloud, indicating extended security integration within the scoped environment.
+
+
 
