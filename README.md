@@ -3,8 +3,6 @@
 Hands-on Azure IAM lab demonstrating identity-first security, MFA enforcement,
 RBAC at resource and subscription scope, and Sentinel onboarding.
 
-# Azure IAM Security Lab
-
 ## Overview
 This lab demonstrates identity-first cloud security in Microsoft Azure, focusing on
 authentication, least privilege access, RBAC enforcement, and secure monitoring foundations.
