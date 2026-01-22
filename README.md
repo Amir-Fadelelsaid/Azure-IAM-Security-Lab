@@ -91,3 +91,6 @@ This screenshot shows a successful Azure portal login using a cloud user account
 
 ![RBAC Access Denied](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/1f9448b30cb2cd33987c5c325f911e593a49221f/IAM%20Logs%20dont%20have%20permission.png)
 This screenshot demonstrates Azure Role-Based Access Control (RBAC) enforcement. Although the cloud user was authenticated via MFA, they were denied access to the storage logs container due to insufficient permissions. This confirms that authentication (identity) does not imply authorization (access), enforcing least privilege.
+
+![Subscription IAM Role Assignments](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/6f5562aa9acaeab0f900fb75398528903d19f2ad/IAM%20Role%20Assignment%20Page%20.png)
+This screenshot shows the Azure subscription’s Access control (IAM) page, listing role assignments. It confirms which identities and service principals have been granted roles (such as Owner and Microsoft Sentinel Contributor) at the subscription scope, validating RBAC and least-privilege access controls.
