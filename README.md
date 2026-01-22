@@ -94,3 +94,7 @@ This screenshot demonstrates Azure Role-Based Access Control (RBAC) enforcement.
 
 ![Subscription IAM Role Assignments](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/6f5562aa9acaeab0f900fb75398528903d19f2ad/IAM%20Role%20Assignment%20Page%20.png)
 This screenshot shows the Azure subscription’s Access control (IAM) page, listing role assignments. It confirms which identities and service principals have been granted roles (such as Owner and Microsoft Sentinel Contributor) at the subscription scope, validating RBAC and least-privilege access controls.
+
+![Resource Group IAM Scope](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/65f6073369db877522b5bfa2b78d212e8aad799b/IAM%20RG%20Security%20Lab%20resource%20group.png)
+This screenshot shows the `rg-security-lab` resource group, illustrating how Azure IAM can be scoped at the resource group level. This limits access to only the resources required, reducing blast radius and enforcing least-privilege access controls.
+
