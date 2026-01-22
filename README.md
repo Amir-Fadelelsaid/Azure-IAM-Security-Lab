@@ -64,3 +64,15 @@ showing authentication setup, RBAC behavior, and secure service onboarding.
 - RBAC role switching (Reader → Contributor)
 - Explicit Zero Trust deny/allow testing
 - Activity Log and Sign-In Log validation
+
+![IAM Password Reset Enforcement](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/bd61411a8aa5f5559b259e971b78af3b41aeaf22/Iam%20Password%20reset.png)
+This lab intentionally started with restricted access to validate
+Azure’s deny-by-default security model.
+
+Access failures were observed before RBAC permissions were reviewed,
+confirming correct enforcement of least privilege.
+
+Only after validation were monitoring services onboarded,
+ensuring identity and authorization were established first.
+
+
