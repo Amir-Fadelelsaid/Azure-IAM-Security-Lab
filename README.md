@@ -95,10 +95,13 @@ This screenshot demonstrates Azure Role-Based Access Control (RBAC) enforcement.
 ![Log Analytics Workspace Deployment Complete](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/d092ca2104f7f4614257b7f48b15feb705babb9f/IAM%20Log%20Analytics%20work%20space%20completed.png)
 Shows successful deployment of the Log Analytics Workspace used for centralized logging and monitoring in the IAM security lab.
 
-
 ![Subscription IAM Role Assignments](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/6f5562aa9acaeab0f900fb75398528903d19f2ad/IAM%20Role%20Assignment%20Page%20.png)
 This screenshot shows the Azure subscription’s Access control (IAM) page, listing role assignments. It confirms which identities and service principals have been granted roles (such as Owner and Microsoft Sentinel Contributor) at the subscription scope, validating RBAC and least-privilege access controls.
 
 ![Resource Group IAM Scope](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/65f6073369db877522b5bfa2b78d212e8aad799b/IAM%20RG%20Security%20Lab%20resource%20group.png)
 This screenshot shows the `rg-security-lab` resource group, illustrating how Azure IAM can be scoped at the resource group level. This limits access to only the resources required, reducing blast radius and enforcing least-privilege access controls.
+
+![Subscription Overview](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/b9d0642f921117247ab11a6394a8e1d8d6a06709/IAM%20Azure%20Subscription%20Overview.png)
+This screenshot shows the Azure Subscription overview for the signed-in user. It confirms the subscription name, ID, and that the user is authenticated in the Default Directory with appropriate role context, providing baseline visibility into the environment before applying RBAC and resource-level controls.
+
 
