@@ -81,5 +81,9 @@ ensuring identity and authorization were established first.
 
 Azure enforced multi-factor authentication during first-time sign-in, requiring Microsoft Authenticator enrollment before access was granted.
 
+![MFA Enforcement - Microsoft Authenticator Added](https://github.com/Amir-Fadelelsaid/Azure-IAM-Security-Lab/blob/32a8b40f827183a454083fdbb48022cb9b3f3224/Iam%20Authenticator%20added.png)
+This screenshot confirms successful multi-factor authentication (MFA) enrollment for a cloud user using Microsoft Authenticator.  
+It validates strong authentication enforcement as part of an identity-first, Zero Trust security model in Azure.
+
 
 
